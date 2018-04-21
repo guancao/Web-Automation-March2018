@@ -1,0 +1,23 @@
+04-21-18 class notes
+
+driver.get()
+driver.navigate().to()/forward()/back()
+
+Thread.sleep() vs WebDriver Wait
+
+
+Work on different domain:
+
+1)Entertainment,Media—HBO,Netflix,CNBC
+2)Social Media—Facebook,Linkedin,Instagram,Twitter
+3)E-Commerce—Amazon,Alibaba,ebay
+4)Financial—Citibank,Chase,MetLife,Statefarm,Geico
+5)Health Care—Obama Care, Cigna, TMZ, Metroplus,United Health Care
+6)Retail—Best Buy, Costco,Walmart,Target,Bed Bath & Beyond.
+
+
+Aftab   Entertainment 70%-Moyna-10%, Selina-10%, Kaniz-10%
+Moyna E-Commerce  70%-Aftab-10%, Selina-10%, Kaniz-10%
+Selina. Retail.          70%-Moyna-10%, Aftab-10%, Kaniz-10%
+Kaniz.  Social Media 70%-Aftab-10%, Selina-10%, Moyna-10%
+Financial & Health Care—All of you
