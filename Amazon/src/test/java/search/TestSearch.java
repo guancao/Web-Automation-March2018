@@ -15,9 +15,9 @@ public class TestSearch extends CommonAPI{
         searchPage.searchItems();
     }
 
-    @Test
+    //@Test
     public void search(){
-        typeOnCss("#twotabsearchtextbox","iPhone");
-        clickOnCss(".nav-input");
+        typeOnInputField("twotabsearchtextbox","iPhone");
+        clickOnElement(".nav-input");
     }
 }

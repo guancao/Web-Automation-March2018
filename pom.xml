@@ -12,6 +12,8 @@
         <module>Generic</module>
         <module>Amazon</module>
         <module>Cnn</module>
+        <module>W3schools</module>
+        <module>Pnt</module>
     </modules>
 
     <dependencyManagement>

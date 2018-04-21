@@ -1,5 +1,6 @@
 package home;
 
+import base.CommonAPI;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -7,7 +8,7 @@ import org.openqa.selenium.support.FindBy;
 import java.util.ArrayList;
 import java.util.List;
 
-public class SearchPage {
+public class SearchPage extends CommonAPI{
     @FindBy(id = "twotabsearchtextbox")
     public WebElement searchInputField;
 
@@ -19,7 +20,7 @@ public class SearchPage {
         this.searchInputField = searchInputField;
     }
 
-    public void searchItems(){
+    public void searchItems()throws InterruptedException{
         List<String> itemList = getItemValue();
         for(String st: itemList) {
             getSearchInputField().sendKeys(st, Keys.ENTER);
