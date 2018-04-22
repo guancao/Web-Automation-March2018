@@ -14,7 +14,7 @@ public class ItemsToBeSearched extends CommonAPI {
     }
 
     public String[] getDataFromExcelFileForFeaturesChoice() throws IOException{
-        String path = System.getProperty("user.dir")+"data/file1.xls";
+        String path = System.getProperty("user.dir")+"/data/file2.xls";
         String [] data = dr.fileReader2(path);
         return data;
     }

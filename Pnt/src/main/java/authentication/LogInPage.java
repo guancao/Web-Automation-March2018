@@ -2,6 +2,7 @@ package authentication;
 
 import authentication.popup.HandlePopUp;
 import base.CommonAPI;
+import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -58,7 +59,7 @@ public class LogInPage {
         getLoginButtonElement().click();
     }
     public void typeUserName(){
-        getUserNameInputField().sendKeys("testuser1");
+       getUserNameInputField().sendKeys("testuser1");
     }
     public void typePassword(){
         getPasswordInputField().sendKeys("abcd1234");
@@ -76,5 +77,13 @@ public class LogInPage {
         typeUserName();
         typePassword();
         clickOnAuthenticate();
+    }
+
+    public void signIn(WebDriver driver1)throws InterruptedException{
+        driver1.findElement(By.cssSelector("#globl-cont a")).click();
+        CommonAPI.sleepFor(2);
+        CommonAPI.handleNewTab(driver1);
+        driver1.findElement(By.cssSelector(".input_text")).sendKeys("testuser1");
+        driver1.findElement(By.cssSelector(".input_password")).sendKeys("abcd1234");
     }
 }
