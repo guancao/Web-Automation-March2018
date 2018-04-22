@@ -40,7 +40,7 @@ public class DataReader {
         return data;
     }
 
-    public String[] fileReader(String path) throws IOException {
+    public String[] fileReader2(String path) throws IOException {
         String[] data = {};
         File file = new File(path);
         FileInputStream fis = new FileInputStream(file);

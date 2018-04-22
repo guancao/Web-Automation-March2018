@@ -1,6 +1,7 @@
 package home;
 
 import base.CommonAPI;
+import database.ConnectDB;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
@@ -60,17 +61,24 @@ public class SearchPage extends CommonAPI{
         }
     }
 
-    public List<String> getItemValue(){
+    public static List<String> getItemValue(){
         List<String> itemsList = new ArrayList<String>();
         itemsList.add("Java Book");
         itemsList.add("Selenium Book");
         itemsList.add("Laptop");
         itemsList.add("Honey");
+        itemsList.add("Toothpaste");
+        itemsList.add("ear-ring");
+        itemsList.add("ps4games");
+        itemsList.add("macAir");
 
         return itemsList;
     }
 
-
+    public static void main(String[] args) {
+        ConnectDB connectDB = new ConnectDB();
+        connectDB.insertDataFromArrayListToMySql(getItemValue(),"aftabShoppingList","items");
+    }
 
 
 }

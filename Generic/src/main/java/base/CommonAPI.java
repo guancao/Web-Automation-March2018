@@ -4,6 +4,8 @@ import org.apache.commons.io.FileUtils;
 import org.apache.commons.lang3.StringUtils;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -25,14 +27,48 @@ public class CommonAPI {
 
     public WebDriver driver = null;
 
-    @Parameters({"url"})
+    @Parameters({"useCloudEnv","cloudEnvName","os","os_version","browserName","browserVersion","url"})
     @BeforeMethod
-    public void setUp(@Optional("https://www.amazon.com") String url) {
+    public void setUp(@Optional("false") boolean useCloudEnv, @Optional("false")String cloudEnvName,
+                      @Optional("OS X") String os,@Optional("10") String os_version, @Optional("firefox") String browserName, @Optional("34")
+                              String browserVersion, @Optional("http://www.amazon.com") String url)throws IOException {
         System.setProperty("webdriver.chrome.driver", "/Users/peoplentech/eclipse-workspace-March2018/SeleniumProject1/driver/chromedriver");
-        driver = new ChromeDriver();
+        if(useCloudEnv==true){
+            if(cloudEnvName.equalsIgnoreCase("browserstack")) {
+                //getCloudDriver(cloudEnvName,browserstack_username,browserstack_accesskey,os,os_version, browserName, browserVersion);
+            }else if (cloudEnvName.equalsIgnoreCase("saucelabs")){
+                //getCloudDriver(cloudEnvName,saucelabs_username, saucelabs_accesskey,os,os_version, browserName, browserVersion);
+            }
+        }else{
+            getLocalDriver(os, browserName);
+        }
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-        driver.navigate().to(url);
+        driver.manage().timeouts().pageLoadTimeout(25, TimeUnit.SECONDS);
+        driver.get(url);
         driver.manage().window().maximize();
+    }
+    public WebDriver getLocalDriver(@Optional("mac") String OS, String browserName){
+        if(browserName.equalsIgnoreCase("chrome")){
+            if(OS.equalsIgnoreCase("OS X")){
+                System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver");
+            }else if(OS.equalsIgnoreCase("Windows")){
+                System.setProperty("webdriver.chrome.driver", "../Generic/browser-driver/chromedriver.exe");
+            }
+            driver = new ChromeDriver();
+        }else if(browserName.equalsIgnoreCase("firefox")){
+            if(OS.equalsIgnoreCase("OS X")){
+                System.setProperty("webdriver.gecko.driver", "../Generic/browser-driver/geckodriver");
+            }else if(OS.equalsIgnoreCase("Windows")) {
+                System.setProperty("webdriver.gecko.driver", "../Generic/browser-driver/geckodriver.exe");
+            }
+            driver = new FirefoxDriver();
+
+        } else if(browserName.equalsIgnoreCase("ie")) {
+            System.setProperty("webdriver.ie.driver", "../Generic/browser-driver/IEDriverServer.exe");
+            driver = new InternetExplorerDriver();
+        }
+        return driver;
+
     }
 
     @AfterMethod
