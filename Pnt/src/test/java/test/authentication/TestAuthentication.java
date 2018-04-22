@@ -8,7 +8,7 @@ import org.testng.annotations.Test;
 public class TestAuthentication extends CommonAPI{
 
     @Test
-    public void logIn() {
+    public void logIn()throws InterruptedException {
         LogInPage logInPage = PageFactory.initElements(driver, LogInPage.class);
         logInPage.logInToPntForum(driver);
     }

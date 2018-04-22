@@ -10,6 +10,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
+import org.testng.annotations.Optional;
 import org.testng.annotations.Parameters;
 import java.io.File;
 import java.io.IOException;
@@ -26,7 +27,7 @@ public class CommonAPI {
 
     @Parameters({"url"})
     @BeforeMethod
-    public void setUp(String url) {
+    public void setUp(@Optional("https://www.amazon.com") String url) {
         System.setProperty("webdriver.chrome.driver", "/Users/peoplentech/eclipse-workspace-March2018/SeleniumProject1/driver/chromedriver");
         driver = new ChromeDriver();
         driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
@@ -36,7 +37,7 @@ public class CommonAPI {
 
     @AfterMethod
     public void afterMethod() {
-        driver.close();
+        driver.quit();
     }
 
     public void clickOnCss(String locator){
@@ -151,7 +152,7 @@ public class CommonAPI {
         Select select = new Select(element);
         select.selectByVisibleText(value);
     }
-    public void sleepFor(int sec)throws InterruptedException{
+    public static void sleepFor(int sec)throws InterruptedException{
         Thread.sleep(sec * 1000);
     }
     public void mouseHoverByCSS(String locator){
@@ -262,6 +263,10 @@ public class CommonAPI {
         newTabs.remove(oldTab);
         driver1.switchTo().window(newTabs.get(0));
         return driver1;
+    }
+    public static boolean isPopUpWindowDisplayed(WebDriver driver1, String locator){
+        boolean value = driver1.findElement(By.cssSelector(locator)).isDisplayed();
+        return value;
     }
 
 }

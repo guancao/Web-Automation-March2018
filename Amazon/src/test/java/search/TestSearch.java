@@ -10,14 +10,8 @@ import org.testng.annotations.Test;
 public class TestSearch extends CommonAPI{
 
     @Test
-    public void test2() {
+    public void test2() throws InterruptedException{
         SearchPage searchPage = PageFactory.initElements(driver, SearchPage.class);
         searchPage.searchItems();
-    }
-
-    //@Test
-    public void search(){
-        typeOnInputField("twotabsearchtextbox","iPhone");
-        clickOnElement(".nav-input");
     }
 }

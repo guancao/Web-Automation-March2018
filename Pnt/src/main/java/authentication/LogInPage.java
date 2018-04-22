@@ -1,5 +1,6 @@
 package authentication;
 
+import authentication.popup.HandlePopUp;
 import base.CommonAPI;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -66,7 +67,10 @@ public class LogInPage {
         getClickButtonElement().click();
     }
 
-    public void logInToPntForum(WebDriver driver1){
+    public void logInToPntForum(WebDriver driver1)throws InterruptedException{
+        HandlePopUp handlePopUp = new HandlePopUp();
+        handlePopUp.closePopUpWindow(driver1);
+        CommonAPI.sleepFor(2);
         clickOnLogInButton();
         CommonAPI.handleNewTab(driver1);
         typeUserName();

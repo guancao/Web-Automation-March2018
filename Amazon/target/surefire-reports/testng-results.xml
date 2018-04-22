@@ -2,16 +2,31 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="25" started-at="2018-04-15T18:05:02Z" finished-at="2018-04-15T18:05:02Z">
+  <suite name="Amazon Automation Script " duration-ms="11933" started-at="2018-04-22T15:09:49Z" finished-at="2018-04-22T15:10:01Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="25" started-at="2018-04-15T18:05:02Z" finished-at="2018-04-15T18:05:02Z">
-      <class name="search.TestSearch">
-        <test-method status="PASS" signature="test2()[pri:0, instance:search.TestSearch@90f6bfd]" name="test2" duration-ms="6" started-at="2018-04-15T18:05:02Z" finished-at="2018-04-15T18:05:02Z">
+    <test name="Amazon Home" duration-ms="11933" started-at="2018-04-22T15:09:49Z" finished-at="2018-04-22T15:10:01Z">
+      <class name="menu.TestDropDownMenu">
+        <test-method status="PASS" signature="setUp(java.lang.String)[pri:0, instance:menu.TestDropDownMenu@2a17b7b6]" name="setUp" is-config="true" duration-ms="8215" started-at="2018-04-22T15:09:49Z" finished-at="2018-04-22T15:09:57Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- search.TestSearch -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="menu()[pri:0, instance:menu.TestDropDownMenu@2a17b7b6]" name="menu" duration-ms="3190" started-at="2018-04-22T15:09:57Z" finished-at="2018-04-22T15:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- menu -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:menu.TestDropDownMenu@2a17b7b6]" name="afterMethod" is-config="true" duration-ms="509" started-at="2018-04-22T15:10:00Z" finished-at="2018-04-22T15:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- menu.TestDropDownMenu -->
+    </test> <!-- Amazon Home -->
+  </suite> <!-- Amazon Automation Script  -->
 </testng-results>

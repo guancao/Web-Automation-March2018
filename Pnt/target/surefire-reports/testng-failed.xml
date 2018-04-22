@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="0" name="Failed suite [Pnt Automation Script ]">
+  <parameter name="url" value="https://www.piit.us"/>
+  <test thread-count="5" verbose="0" name="Pnt Forum(failed)">
+    <classes>
+      <class name="test.authentication.TestAuthentication">
+        <methods>
+          <include name="logIn"/>
+          <include name="setUp"/>
+          <include name="afterMethod"/>
+        </methods>
+      </class> <!-- test.authentication.TestAuthentication -->
+    </classes>
+  </test> <!-- Pnt Forum(failed) -->
+</suite> <!-- Failed suite [Pnt Automation Script ] -->
