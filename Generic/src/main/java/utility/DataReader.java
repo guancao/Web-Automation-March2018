@@ -19,12 +19,12 @@ public class DataReader {
     FileOutputStream fio = null;
     int numberOfRows, numberOfCol, rowNum;
 
-    public String[][] fileReader1(String path) throws IOException {
+    public String[][] fileReader1(String path,int sheetIndex) throws IOException {
         String[][] data = {};
         File file = new File(path);
         FileInputStream fis = new FileInputStream(file);
         wb = new HSSFWorkbook(fis);
-        sheet = wb.getSheetAt(0);
+        sheet = wb.getSheetAt(sheetIndex);
         numberOfRows = sheet.getLastRowNum();
         numberOfCol = sheet.getRow(0).getLastCellNum();
         data = new String[numberOfRows + 1][numberOfCol + 1];
@@ -40,12 +40,12 @@ public class DataReader {
         return data;
     }
 
-    public String[] fileReader2(String path) throws IOException {
+    public String[] fileReader2(String path, int sheetIndex) throws IOException {
         String[] data = {};
         File file = new File(path);
         FileInputStream fis = new FileInputStream(file);
         wb = new HSSFWorkbook(fis);
-        sheet = wb.getSheetAt(0);
+        sheet = wb.getSheetAt(sheetIndex);
         numberOfRows = sheet.getLastRowNum();
         numberOfCol = sheet.getRow(0).getLastCellNum();
         data = new String[numberOfRows + 1];
