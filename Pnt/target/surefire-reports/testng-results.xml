@@ -1,0 +1,322 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="2" total="4" passed="2">
+  <reporter-output>
+    <line>
+      <![CDATA[Extent Report Directory/Users/peoplentech/develop/automation/Web-Automation-Framework/Pnt/target/surefire-reports/html]]>
+    </line>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[launch local browser]]>
+    </line>
+    <line>
+      <![CDATA[TestAuthentication: log In]]>
+    </line>
+    <line>
+      <![CDATA[LogInPage: log In To Pnt Forum]]>
+    </line>
+    <line>
+      <![CDATA[HandlePopUp: handle Pop Up Window Before Log In]]>
+    </line>
+    <line>
+      <![CDATA[HandlePopUp: is Scholarship Pop Up Window Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Yes, displayed. Handle it now.]]>
+    </line>
+    <line>
+      <![CDATA[HandlePopUp: close Pop Up Window]]>
+    </line>
+    <line>
+      <![CDATA[HandlePopUp: set Scholarship Pop Up Window Close Web Element]]>
+    </line>
+    <line>
+      <![CDATA[HandlePopUp: get Scholarship Pop Up Window Close Web Element]]>
+    </line>
+    <line>
+      <![CDATA[Sleep for 2 sec]]>
+    </line>
+    <line>
+      <![CDATA[LogInPage: click On Log In Button]]>
+    </line>
+    <line>
+      <![CDATA[LogInPage: type User Name]]>
+    </line>
+    <line>
+      <![CDATA[LogInPage: type Password]]>
+    </line>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[launch local browser]]>
+    </line>
+    <line>
+      <![CDATA[TestPopUpWindow: test Pop Up]]>
+    </line>
+    <line>
+      <![CDATA[HandlePopUp: handle Pop Up Window Before Log In]]>
+    </line>
+    <line>
+      <![CDATA[HandlePopUp: is Scholarship Pop Up Window Displayed]]>
+    </line>
+    <line>
+      <![CDATA[Yes, displayed. Handle it now.]]>
+    </line>
+    <line>
+      <![CDATA[HandlePopUp: close Pop Up Window]]>
+    </line>
+    <line>
+      <![CDATA[HandlePopUp: set Scholarship Pop Up Window Close Web Element]]>
+    </line>
+    <line>
+      <![CDATA[HandlePopUp: get Scholarship Pop Up Window Close Web Element]]>
+    </line>
+    <line>
+      <![CDATA[Sleep for 2 sec]]>
+    </line>
+  </reporter-output>
+  <suite name="Pnt Automation Script " duration-ms="31321" started-at="2018-04-28T16:32:32Z" finished-at="2018-04-28T16:33:03Z">
+    <groups>
+    </groups>
+    <test name="Pnt Forum" duration-ms="31321" started-at="2018-04-28T16:32:32Z" finished-at="2018-04-28T16:33:03Z">
+      <class name="test.authentication.TestAuthentication">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:test.authentication.TestAuthentication@6acdbdf5]" name="extentSetup" is-config="true" duration-ms="177" started-at="2018-04-28T16:32:32Z" finished-at="2018-04-28T16:32:32Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@8dbfffb]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report Directory/Users/peoplentech/develop/automation/Web-Automation-Framework/Pnt/target/surefire-reports/html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.authentication.TestAuthentication@6acdbdf5]" name="setUp" is-config="true" duration-ms="11168" started-at="2018-04-28T16:32:32Z" finished-at="2018-04-28T16:32:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[60.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.piit.us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.authentication.TestAuthentication@6acdbdf5]" name="startExtent" is-config="true" duration-ms="4" started-at="2018-04-28T16:32:43Z" finished-at="2018-04-28T16:32:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.authentication.TestAuthentication.logIn() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="logIn()[pri:0, instance:test.authentication.TestAuthentication@6acdbdf5]" name="logIn" duration-ms="7381" started-at="2018-04-28T16:32:43Z" finished-at="2018-04-28T16:32:51Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+            <line>
+              <![CDATA[launch local browser]]>
+            </line>
+            <line>
+              <![CDATA[TestAuthentication: log In]]>
+            </line>
+            <line>
+              <![CDATA[LogInPage: log In To Pnt Forum]]>
+            </line>
+            <line>
+              <![CDATA[HandlePopUp: handle Pop Up Window Before Log In]]>
+            </line>
+            <line>
+              <![CDATA[HandlePopUp: is Scholarship Pop Up Window Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Yes, displayed. Handle it now.]]>
+            </line>
+            <line>
+              <![CDATA[HandlePopUp: close Pop Up Window]]>
+            </line>
+            <line>
+              <![CDATA[HandlePopUp: set Scholarship Pop Up Window Close Web Element]]>
+            </line>
+            <line>
+              <![CDATA[HandlePopUp: get Scholarship Pop Up Window Close Web Element]]>
+            </line>
+            <line>
+              <![CDATA[Sleep for 2 sec]]>
+            </line>
+            <line>
+              <![CDATA[LogInPage: click On Log In Button]]>
+            </line>
+            <line>
+              <![CDATA[LogInPage: type User Name]]>
+            </line>
+            <line>
+              <![CDATA[LogInPage: type Password]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- logIn -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.authentication.TestAuthentication@6acdbdf5]" name="afterEachTestMethod" is-config="true" duration-ms="495" started-at="2018-04-28T16:32:51Z" finished-at="2018-04-28T16:32:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=logIn status=SUCCESS method=TestAuthentication.logIn()[pri:0, instance:test.authentication.TestAuthentication@6acdbdf5] output=Browser is launched]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.authentication.TestAuthentication@6acdbdf5]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-04-28T16:32:51Z" finished-at="2018-04-28T16:32:51Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:test.authentication.TestAuthentication@6acdbdf5]" name="generateReport" is-config="true" duration-ms="23" started-at="2018-04-28T16:33:03Z" finished-at="2018-04-28T16:33:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- test.authentication.TestAuthentication -->
+      <class name="test.authentication.TestPopUpWindow">
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:test.authentication.TestPopUpWindow@4b1c1ea0]" name="setUp" is-config="true" duration-ms="7936" started-at="2018-04-28T16:32:51Z" finished-at="2018-04-28T16:32:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[browserstack]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Sierra]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[60.0]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.piit.us]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:test.authentication.TestPopUpWindow@4b1c1ea0]" name="startExtent" is-config="true" duration-ms="1" started-at="2018-04-28T16:32:59Z" finished-at="2018-04-28T16:32:59Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void test.authentication.TestPopUpWindow.testPopUp() throws java.lang.InterruptedException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="testPopUp()[pri:0, instance:test.authentication.TestPopUpWindow@4b1c1ea0]" name="testPopUp" duration-ms="4121" started-at="2018-04-28T16:32:59Z" finished-at="2018-04-28T16:33:03Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+            <line>
+              <![CDATA[launch local browser]]>
+            </line>
+            <line>
+              <![CDATA[TestPopUpWindow: test Pop Up]]>
+            </line>
+            <line>
+              <![CDATA[HandlePopUp: handle Pop Up Window Before Log In]]>
+            </line>
+            <line>
+              <![CDATA[HandlePopUp: is Scholarship Pop Up Window Displayed]]>
+            </line>
+            <line>
+              <![CDATA[Yes, displayed. Handle it now.]]>
+            </line>
+            <line>
+              <![CDATA[HandlePopUp: close Pop Up Window]]>
+            </line>
+            <line>
+              <![CDATA[HandlePopUp: set Scholarship Pop Up Window Close Web Element]]>
+            </line>
+            <line>
+              <![CDATA[HandlePopUp: get Scholarship Pop Up Window Close Web Element]]>
+            </line>
+            <line>
+              <![CDATA[Sleep for 2 sec]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testPopUp -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:test.authentication.TestPopUpWindow@4b1c1ea0]" name="afterEachTestMethod" is-config="true" duration-ms="201" started-at="2018-04-28T16:33:03Z" finished-at="2018-04-28T16:33:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=testPopUp status=SUCCESS method=TestPopUpWindow.testPopUp()[pri:0, instance:test.authentication.TestPopUpWindow@4b1c1ea0] output=Browser is launched]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:test.authentication.TestPopUpWindow@4b1c1ea0]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-04-28T16:33:03Z" finished-at="2018-04-28T16:33:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- test.authentication.TestPopUpWindow -->
+    </test> <!-- Pnt Forum -->
+  </suite> <!-- Pnt Automation Script  -->
+</testng-results>

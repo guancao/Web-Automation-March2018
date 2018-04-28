@@ -3,18 +3,19 @@
 
 <suite name="Pnt Automation Script " parallel="false">
 
-    <!--<parameter name="useCloudEnv" value="false"/>-->
-    <!--<parameter name="cloudEnvName" value="browserstack"/>-->
-    <!--<parameter name="os" value="OS X"/>-->
-    <!--<parameter name="os_version" value="Sierra"/>-->
-    <!--<parameter name="browserName" value="firefox"/>-->
-    <!--<parameter name="browserVersion" value="53.0"/>-->
+    <parameter name="useCloudEnv" value="false"/>
+    <parameter name="cloudEnvName" value="browserstack"/>
+    <parameter name="os" value="OS X"/>
+    <parameter name="os_version" value="Sierra"/>
+    <parameter name="browserName" value="chrome"/>
+    <parameter name="browserVersion" value="60.0"/>
     <parameter name="url" value="https://www.piit.us"/>
 
     <test name = "Pnt Forum">
         <classes>
             <class name="test.authentication.TestAuthentication"/>
-            <!--<class name="test.authentication.TestPopUpWindow"/>-->
+            <class name="test.authentication.TestPopUpWindow"/>
+            <!--<class name="test.authentication.TestKeyword"/>-->
         </classes>
     </test>
 

@@ -6,6 +6,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.How;
+import reporting.TestLogger;
 
 import java.io.IOException;
 import java.util.ArrayList;
@@ -36,6 +37,7 @@ public class SearchPage extends CommonAPI{
         getSearchInputWebElement().clear();
     }
     public void searchItemsAndSubmitButton()throws IOException {
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         ItemsToBeSearched itemsToBeSearched = new ItemsToBeSearched();
         String [] value = itemsToBeSearched.getDataFromExcelFile();
         for(int i=0; i<value.length; i++) {
@@ -54,6 +56,7 @@ public class SearchPage extends CommonAPI{
     }
 
     public void searchItems()throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         List<String> itemList = getItemValue();
         for(String st: itemList) {
             getSearchInputField().sendKeys(st, Keys.ENTER);
