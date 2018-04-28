@@ -11,6 +11,7 @@ public class TestPopUpWindow extends CommonAPI {
 
     @Test
     public void testPopUp()throws InterruptedException{
+        ApplicationLog.epicLogger();
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         HandlePopUp handlePopUp = PageFactory.initElements(driver, HandlePopUp.class);
         handlePopUp.handlePopUpWindowBeforeLogIn(driver);

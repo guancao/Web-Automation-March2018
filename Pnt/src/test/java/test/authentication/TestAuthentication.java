@@ -11,6 +11,7 @@ public class TestAuthentication extends CommonAPI{
 
     @Test
     public void logIn()throws InterruptedException {
+        ApplicationLog.epicLogger();
         TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         LogInPage logInPage = PageFactory.initElements(driver, LogInPage.class);
         logInPage.logInToPntForum(driver);

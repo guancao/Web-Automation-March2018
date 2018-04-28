@@ -2,50 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f35f473-0647-4bdc-87d3-e34024b3d85f" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_aventstack_extentreports_3_0_7.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_relevantcodes_extentreports_2_41_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_freemarker_freemarker_2_3_23.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jsoup_jsoup_1_9_2.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_bson_3_3_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_3_3_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mongodb_mongodb_driver_core_3_3_0.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_xerial_sqlite_jdbc_3_8_11_1.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentManager.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ExtentTestManager.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/TestLogger.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/Amazon/Amazon.iml" afterPath="$PROJECT_DIR$/Amazon/Amazon.iml" />
-      <change beforePath="$PROJECT_DIR$/Amazon/src/main/java/home/SearchPage.java" afterPath="$PROJECT_DIR$/Amazon/src/main/java/home/SearchPage.java" />
-      <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/home/search/TestSearch.java" afterPath="$PROJECT_DIR$/Amazon/src/test/java/home/search/TestSearch.java" />
-      <change beforePath="$PROJECT_DIR$/Amazon/src/test/java/menu/TestDropDownMenu.java" afterPath="$PROJECT_DIR$/Amazon/src/test/java/menu/TestDropDownMenu.java" />
-      <change beforePath="$PROJECT_DIR$/Amazon/target/test-classes/AmazonSearchTestRunner.xml" afterPath="$PROJECT_DIR$/Amazon/target/test-classes/AmazonSearchTestRunner.xml" />
-      <change beforePath="$PROJECT_DIR$/Cnn/Cnn.iml" afterPath="$PROJECT_DIR$/.idea/Cnn/Cnn.iml" />
-      <change beforePath="$PROJECT_DIR$/Cnn/pom.xml" afterPath="$PROJECT_DIR$/.idea/Cnn/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/Cnn/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/.idea/Cnn/target/maven-archiver/pom.properties" />
-      <change beforePath="$PROJECT_DIR$/Cnn/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/.idea/Cnn/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/Cnn/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/.idea/Cnn/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/Generic/Generic.iml" afterPath="$PROJECT_DIR$/Generic/Generic.iml" />
-      <change beforePath="$PROJECT_DIR$/Generic/pom.xml" afterPath="$PROJECT_DIR$/Generic/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
-      <change beforePath="$PROJECT_DIR$/Pnt/Pnt.iml" afterPath="$PROJECT_DIR$/Pnt/Pnt.iml" />
-      <change beforePath="$PROJECT_DIR$/Pnt/src/main/java/authentication/LogInPage.java" afterPath="$PROJECT_DIR$/Pnt/src/main/java/authentication/LogInPage.java" />
-      <change beforePath="$PROJECT_DIR$/Pnt/src/main/java/authentication/popup/HandlePopUp.java" afterPath="$PROJECT_DIR$/Pnt/src/main/java/authentication/popup/HandlePopUp.java" />
-      <change beforePath="$PROJECT_DIR$/Pnt/src/main/java/keyword/ItemsToBeSearched.java" afterPath="$PROJECT_DIR$/Pnt/src/main/java/keyword/ItemsToBeSearched.java" />
+      <change beforePath="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" afterPath="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" />
       <change beforePath="$PROJECT_DIR$/Pnt/src/test/java/test/authentication/TestAuthentication.java" afterPath="$PROJECT_DIR$/Pnt/src/test/java/test/authentication/TestAuthentication.java" />
       <change beforePath="$PROJECT_DIR$/Pnt/src/test/java/test/authentication/TestPopUpWindow.java" afterPath="$PROJECT_DIR$/Pnt/src/test/java/test/authentication/TestPopUpWindow.java" />
-      <change beforePath="$PROJECT_DIR$/Pnt/src/test/resources/PntTestRunner.xml" afterPath="$PROJECT_DIR$/Pnt/src/test/resources/PntTestRunner.xml" />
-      <change beforePath="$PROJECT_DIR$/Pnt/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="$PROJECT_DIR$/Pnt/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/Pnt/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="$PROJECT_DIR$/Pnt/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/Pnt/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/Pnt/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/Pnt/target/test-classes/PntTestRunner.xml" afterPath="$PROJECT_DIR$/Pnt/target/test-classes/PntTestRunner.xml" />
-      <change beforePath="$PROJECT_DIR$/W3schools/W3schools.iml" afterPath="$PROJECT_DIR$/W3schools/W3schools.iml" />
-      <change beforePath="$PROJECT_DIR$/W3schools/src/main/java/tabledata/ReadDataFromTable.java" afterPath="$PROJECT_DIR$/W3schools/src/main/java/tabledata/ReadDataFromTable.java" />
-      <change beforePath="$PROJECT_DIR$/W3schools/src/test/java/testcelldata/TestReadDataFromTable.java" afterPath="$PROJECT_DIR$/W3schools/src/test/java/testcelldata/TestReadDataFromTable.java" />
-      <change beforePath="$PROJECT_DIR$/W3schools/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="$PROJECT_DIR$/W3schools/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -87,7 +46,7 @@
         <entry file="file://$PROJECT_DIR$/Pnt/src/test/java/test/authentication/TestPopUpWindow.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="13" column="57" lean-forward="false" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+              <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -119,7 +78,7 @@
         <entry file="file://$PROJECT_DIR$/Pnt/src/test/java/test/authentication/TestAuthentication.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="176">
-              <caret line="13" column="57" lean-forward="false" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+              <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
               <folding />
             </state>
           </provider>
@@ -128,8 +87,8 @@
       <file leaf-file-name="ApplicationLog.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="44">
-              <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="27" />
+            <state relative-caret-position="154">
+              <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
               <folding />
             </state>
           </provider>
@@ -138,8 +97,8 @@
       <file leaf-file-name="CommonAPI.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="115" column="44" lean-forward="false" selection-start-line="115" selection-start-column="44" selection-end-line="115" selection-end-column="44" />
+            <state relative-caret-position="132">
+              <caret line="39" column="56" lean-forward="false" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
               <folding>
                 <element signature="e#3343#3344#0" expanded="true" />
                 <element signature="e#3373#3374#0" expanded="true" />
@@ -234,9 +193,10 @@
         <option value="$PROJECT_DIR$/W3schools/src/main/java/tabledata/ReadDataFromTable.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/home/search/TestSearch.java" />
         <option value="$PROJECT_DIR$/Amazon/src/main/java/home/SearchPage.java" />
-        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
         <option value="$PROJECT_DIR$/Amazon/src/test/java/menu/TestDropDownMenu.java" />
         <option value="$PROJECT_DIR$/W3schools/src/test/java/testcelldata/TestReadDataFromTable.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java" />
+        <option value="$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java" />
         <option value="$PROJECT_DIR$/Pnt/src/test/java/test/authentication/TestAuthentication.java" />
         <option value="$PROJECT_DIR$/Pnt/src/test/java/test/authentication/TestPopUpWindow.java" />
       </list>
@@ -265,8 +225,8 @@
       <select />
     </treeState>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="331" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="75" />
     <option name="y" value="23" />
     <option name="width" value="1937" />
     <option name="height" value="1008" />
@@ -772,7 +732,7 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="331" y="23" width="1937" height="1008" extended-state="0" />
+    <frame x="75" y="23" width="1937" height="1008" extended-state="1" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -781,13 +741,13 @@
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24677336" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.45619658" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="true" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24677336" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.45619658" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32905984" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14868353" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.14868353" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1244,30 +1204,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="44">
-          <caret line="2" column="27" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="27" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Amazon/src/test/resources/AmazonSearchTestRunner.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
           <caret line="11" column="58" lean-forward="false" selection-start-line="11" selection-start-column="58" selection-end-line="11" selection-end-column="58" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="115" column="44" lean-forward="false" selection-start-line="115" selection-start-column="44" selection-end-line="115" selection-end-column="44" />
-          <folding>
-            <element signature="e#3343#3344#0" expanded="true" />
-            <element signature="e#3373#3374#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1297,10 +1238,29 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/base/CommonAPI.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="39" column="56" lean-forward="false" selection-start-line="39" selection-start-column="56" selection-end-line="39" selection-end-column="56" />
+          <folding>
+            <element signature="e#3343#3344#0" expanded="true" />
+            <element signature="e#3373#3374#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Generic/src/main/java/reporting/ApplicationLog.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="154">
+          <caret line="7" column="1" lean-forward="true" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Pnt/src/test/java/test/authentication/TestAuthentication.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="13" column="57" lean-forward="false" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
           <folding />
         </state>
       </provider>
@@ -1308,7 +1268,7 @@
     <entry file="file://$PROJECT_DIR$/Pnt/src/test/java/test/authentication/TestPopUpWindow.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="176">
-          <caret line="13" column="57" lean-forward="false" selection-start-line="13" selection-start-column="57" selection-end-line="13" selection-end-column="57" />
+          <caret line="13" column="34" lean-forward="false" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
           <folding />
         </state>
       </provider>
