@@ -3,8 +3,10 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Amazon/Amazon.iml" filepath="$PROJECT_DIR$/Amazon/Amazon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Facebook/Facebook.iml" filepath="$PROJECT_DIR$/Facebook/Facebook.iml" />
       <module fileurl="file://$PROJECT_DIR$/Generic/Generic.iml" filepath="$PROJECT_DIR$/Generic/Generic.iml" />
       <module fileurl="file://$PROJECT_DIR$/Pnt/Pnt.iml" filepath="$PROJECT_DIR$/Pnt/Pnt.iml" />
+      <module fileurl="file://$PROJECT_DIR$/RestApi/RestApi.iml" filepath="$PROJECT_DIR$/RestApi/RestApi.iml" />
       <module fileurl="file://$PROJECT_DIR$/W3schools/W3schools.iml" filepath="$PROJECT_DIR$/W3schools/W3schools.iml" />
       <module fileurl="file://$PROJECT_DIR$/Web-Automation-Framework.iml" filepath="$PROJECT_DIR$/Web-Automation-Framework.iml" />
     </modules>

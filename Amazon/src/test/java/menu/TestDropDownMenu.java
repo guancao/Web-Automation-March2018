@@ -14,7 +14,6 @@ public class TestDropDownMenu extends MenuPage{
 
     @Test
     public void menu(){
-      ApplicationLog.epicLogger("Browser is launched");
       TestLogger.log(getClass().getSimpleName() + ": " + convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
       readMenuText();
     }
