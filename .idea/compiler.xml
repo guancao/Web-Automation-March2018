@@ -7,17 +7,20 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="Amazon" />
-        <module name="Cnn" />
+        <module name="Facebook" />
         <module name="Generic" />
         <module name="Pnt" />
+        <module name="RestApi" />
         <module name="W3schools" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Amazon" target="1.5" />
+      <module name="Amazon" target="1.8" />
       <module name="Cnn" target="1.5" />
+      <module name="Facebook" target="1.8" />
       <module name="Generic" target="1.5" />
-      <module name="Pnt" target="1.5" />
+      <module name="Pnt" target="1.8" />
+      <module name="RestApi" target="1.8" />
       <module name="W3schools" target="1.5" />
       <module name="Web-Automation-Framework" target="1.5" />
     </bytecodeTargetLevel>

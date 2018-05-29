@@ -48,7 +48,7 @@ public class SearchPage {
     public void clickOnSearchButton(){
         getClickOnSearchButtonWebElement().click();
     }
-    public void searchTopics(WebDriver driver1){
+    public void searchTopics(WebDriver driver1)throws InterruptedException{
         LogInPage logInPage = new LogInPage();
         logInPage.logInToPntForum(driver1);
         clickOnSearchMenu();

@@ -1,17 +1,123 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
+    <line>
+      <![CDATA[Extent Report Directory/Users/peoplentech/develop/automation/Web-Automation-Framework/Amazon/target/surefire-reports/html]]>
+    </line>
+    <line>
+      <![CDATA[Browser is launched]]>
+    </line>
+    <line>
+      <![CDATA[launch local browser]]>
+    </line>
+    <line>
+      <![CDATA[TestDropDownMenu: menu]]>
+    </line>
   </reporter-output>
-  <suite name="Command line suite" duration-ms="25" started-at="2018-04-15T18:05:02Z" finished-at="2018-04-15T18:05:02Z">
+  <suite name="Amazon Automation Script " duration-ms="23462" started-at="2018-04-28T16:31:40Z" finished-at="2018-04-28T16:32:03Z">
     <groups>
     </groups>
-    <test name="Command line test" duration-ms="25" started-at="2018-04-15T18:05:02Z" finished-at="2018-04-15T18:05:02Z">
-      <class name="search.TestSearch">
-        <test-method status="PASS" signature="test2()[pri:0, instance:search.TestSearch@90f6bfd]" name="test2" duration-ms="6" started-at="2018-04-15T18:05:02Z" finished-at="2018-04-15T18:05:02Z">
+    <test name="Amazon Home" duration-ms="23462" started-at="2018-04-28T16:31:40Z" finished-at="2018-04-28T16:32:03Z">
+      <class name="menu.TestDropDownMenu">
+        <test-method status="PASS" signature="extentSetup(org.testng.ITestContext)[pri:0, instance:menu.TestDropDownMenu@4b1c1ea0]" name="extentSetup" is-config="true" duration-ms="296" started-at="2018-04-28T16:31:39Z" finished-at="2018-04-28T16:31:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@40db2a24]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Extent Report Directory/Users/peoplentech/develop/automation/Web-Automation-Framework/Amazon/target/surefire-reports/html]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- extentSetup -->
+        <test-method status="PASS" signature="setUp(boolean, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:menu.TestDropDownMenu@4b1c1ea0]" name="setUp" is-config="true" duration-ms="11384" started-at="2018-04-28T16:31:40Z" finished-at="2018-04-28T16:31:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[false]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[OS X]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+            <param index="5">
+              <value>
+                <![CDATA[34]]>
+              </value>
+            </param>
+            <param index="6">
+              <value>
+                <![CDATA[https://www.amazon.com]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test2 -->
-      </class> <!-- search.TestSearch -->
-    </test> <!-- Command line test -->
-  </suite> <!-- Command line suite -->
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="startExtent(java.lang.reflect.Method)[pri:0, instance:menu.TestDropDownMenu@4b1c1ea0]" name="startExtent" is-config="true" duration-ms="41" started-at="2018-04-28T16:31:51Z" finished-at="2018-04-28T16:31:51Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void menu.TestDropDownMenu.menu()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startExtent -->
+        <test-method status="PASS" signature="menu()[pri:0, instance:menu.TestDropDownMenu@4b1c1ea0]" name="menu" duration-ms="10950" started-at="2018-04-28T16:31:51Z" finished-at="2018-04-28T16:32:02Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Browser is launched]]>
+            </line>
+            <line>
+              <![CDATA[launch local browser]]>
+            </line>
+            <line>
+              <![CDATA[TestDropDownMenu: menu]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- menu -->
+        <test-method status="PASS" signature="afterEachTestMethod(org.testng.ITestResult)[pri:0, instance:menu.TestDropDownMenu@4b1c1ea0]" name="afterEachTestMethod" is-config="true" duration-ms="1077" started-at="2018-04-28T16:32:02Z" finished-at="2018-04-28T16:32:03Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=menu status=SUCCESS method=TestDropDownMenu.menu()[pri:0, instance:menu.TestDropDownMenu@4b1c1ea0] output=Browser is launched]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterEachTestMethod -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:menu.TestDropDownMenu@4b1c1ea0]" name="afterMethod" is-config="true" duration-ms="0" started-at="2018-04-28T16:32:03Z" finished-at="2018-04-28T16:32:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="generateReport()[pri:0, instance:menu.TestDropDownMenu@4b1c1ea0]" name="generateReport" is-config="true" duration-ms="58" started-at="2018-04-28T16:32:03Z" finished-at="2018-04-28T16:32:03Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- generateReport -->
+      </class> <!-- menu.TestDropDownMenu -->
+    </test> <!-- Amazon Home -->
+  </suite> <!-- Amazon Automation Script  -->
 </testng-results>

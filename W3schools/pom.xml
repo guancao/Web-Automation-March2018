@@ -12,4 +12,12 @@
     <artifactId>w3schools</artifactId>
 
 
+    <dependencies>
+        <dependency>
+            <groupId>Web-Automation-Framework</groupId>
+            <artifactId>generic</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+    </dependencies>
+
 </project>

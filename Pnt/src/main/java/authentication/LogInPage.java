@@ -1,9 +1,12 @@
 package authentication;
 
+import authentication.popup.HandlePopUp;
 import base.CommonAPI;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import org.openqa.selenium.support.PageFactory;
+import reporting.TestLogger;
 
 import java.util.ArrayList;
 
@@ -54,19 +57,26 @@ public class LogInPage {
     }
 
     public void clickOnLogInButton(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         getLoginButtonElement().click();
     }
     public void typeUserName(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         getUserNameInputField().sendKeys("testuser1");
     }
     public void typePassword(){
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
         getPasswordInputField().sendKeys("abcd1234");
     }
     public void clickOnAuthenticate(){
         getClickButtonElement().click();
     }
 
-    public void logInToPntForum(WebDriver driver1){
+    public void logInToPntForum(WebDriver driver1)throws InterruptedException{
+        TestLogger.log(getClass().getSimpleName() + ": " + CommonAPI.convertToString(new Object(){}.getClass().getEnclosingMethod().getName()));
+        HandlePopUp handlePopUp = PageFactory.initElements(driver1, HandlePopUp.class);
+        handlePopUp.handlePopUpWindowBeforeLogIn(driver1);
+        CommonAPI.sleepFor(2);
         clickOnLogInButton();
         CommonAPI.handleNewTab(driver1);
         typeUserName();
